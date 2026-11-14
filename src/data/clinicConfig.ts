@@ -30,8 +30,8 @@ export const CLINIC_INFO = {
   phoneDisplay: '+91 76655 56745',
   phoneHref: 'tel:+917665556745',
   whatsappHref: 'https://wa.me/917665556745',
-  heroPhotoUrl: '/assets/aistudio/dr_jp_main_pic_ea0433e0.png',
-  aboutPhotoUrl: '/assets/aistudio/dr_jp_pic_78a6899e.png',
+  heroPhotoUrl: './assets/aistudio/dr_jp_main_pic_ea0433e0.png',
+  aboutPhotoUrl: './assets/aistudio/dr_jp_pic_78a6899e.png',
 };
 
 export const SERVICES: DentalService[] = [
@@ -76,7 +76,7 @@ export const BRANCHES: ClinicBranch[] = [
       'Main Kalwar Rd, near Ganesh e mitra, Hathoj, Jaipur, Rajasthan 302044 (near the Hathoj bus stand)',
     isAddressPlaceholder: false,
     mapsUrl: 'https://maps.app.goo.gl/iCuFKnZaPVkNavqw5',
-    imageUrl: '/assets/aistudio/hatoj_clinic_b083e5df.png',
+    imageUrl: './assets/aistudio/hatoj_clinic_b083e5df.png',
     imageAlt: 'Exterior storefront of Dr. Jaypee Dental Hospital, Hatoj main branch',
   },
   {
@@ -87,7 +87,7 @@ export const BRANCHES: ClinicBranch[] = [
       'M.G. Vaishnav Complex, Near Ramdev Mandir, Phulera Road, Naya Bazar, Jobner, Jaipur, Rajasthan 303328',
     isAddressPlaceholder: false,
     mapsUrl: 'https://share.google/ox7dJgHcvLkqn4ri9',
-    imageUrl: '/assets/aistudio/jobner_clinic_181f4c6e.png',
+    imageUrl: './assets/aistudio/jobner_clinic_181f4c6e.png',
     imageAlt: 'Exterior storefront of Dr. Jaypee Dental Hospital, Jobner branch',
   },
 ];
@@ -97,7 +97,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     id: 'clinic-interior-operatory',
     title: 'Dental Treatment Suite',
     caption: 'Equipped clinical chair, overhead surgical light, and diagnostic X-ray unit.',
-    imageUrl: '/assets/aistudio/clinic_inside_a1c84dff.png',
+    imageUrl: './assets/aistudio/clinic_inside_a1c84dff.png',
     imageAlt: 'Dental treatment chair and equipment inside Dr. Jaypee Dental Hospital',
     objectPosition: 'object-center',
   },
@@ -105,7 +105,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     id: 'clinic-interior-consultation',
     title: 'Patient Consultation & Clinical Team',
     caption: 'Personalised chairside explanation and care coordination with patients.',
-    imageUrl: '/assets/aistudio/dr_jp_gallery_9cd51888.png',
+    imageUrl: './assets/aistudio/dr_jp_gallery_9cd51888.png',
     imageAlt: 'Dr. Jaypee Kumawat consulting with a patient and clinic staff',
     objectPosition: 'object-top',
   },
