@@ -1,0 +1,6 @@
+{
+  "name": "Dr Jaypee Dental Hospital",
+  "description": "Single-page website for Dr. Jaypee Dental Hospital serving Hatoj and Jobner with dental care services, branch directions, gallery, and direct phone or WhatsApp contact.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
